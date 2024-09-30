@@ -6,8 +6,7 @@ The Flask Healthcare Application is a survey tool designed to collect data on pa
 ### The notebook includes:
 - A Flask-based web application for data collection.
 - Data processing to export the collected data to CSV from MongoDB.
-- Data visualizations to analyze the collected data, including:(
-             Ages with the highest income. Gender distribution across various spending categories.)
+- Data visualizations to analyze the collected data, including:(Ages with the highest income. Gender distribution across various spending categories.)
 
 ## Key Features:
 - Flask Web Application: Collects participant data such as age, gender, income, and spending across categories like utilities, entertainment, school fees, shopping, and healthcare.
@@ -69,6 +68,7 @@ Data Visualization:
 
 ## File Structure
 The project contains the following key files and directories:
+- `Healthcare_Data_Analysis_Final_Project.zip`: The compressed file containing all necessary project files, including the Jupyter notebook, CSV, images, and dependencies.
 - `final_project.ipynb`: The Jupyter notebook that integrates the Flask app, data processing, and visualizations.
 - `requirements.txt`: A list of required dependencies for the project.
 - `participants_data.csv`: The exported CSV file generated after data processing (this file will be created after running the notebook).
