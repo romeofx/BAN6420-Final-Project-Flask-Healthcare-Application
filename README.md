@@ -14,7 +14,7 @@ The Flask Healthcare Application is a survey tool designed to collect data on pa
 - MongoDB Integration: Stores the participant data.
 - Data Processing: Exports the stored data to a CSV file.
 - Data Visualization: Displays visual insights on income and spending using Matplotlib.
-- Integrated in Jupyter Notebook: All functionalities are available in one .ipynb file.
+- Integrated in Jupyter Notebook: All functionalities are available in one `ipynb` file.
 - AWS EC2 Deployment: The Flask web app is deployed and accessible via AWS EC2.
 
 
@@ -22,33 +22,30 @@ The Flask Healthcare Application is a survey tool designed to collect data on pa
 ## How to Use
 1. Setup and Installation
 Install Dependencies
-- All dependencies required for this project are listed in the requirements.txt file. Run the following command to install them:
+All dependencies required for this project are listed in the requirements.txt file. Run the following command to install them:
 
 `pip install -r requirements.txt`
 
-Key dependencies include:
-Flask: Web application framework for data collection.
-pymongo: For MongoDB integration.
-matplotlib & pandas: For data visualization and manipulation.
-EC2 Deployment: The project is deployed using AWS EC2, not Gunicorn.
+### Key dependencies include:
+- Flask: Web application framework for data collection.
+- pymongo: For MongoDB integration.
+- matplotlib & pandas: For data visualization and manipulation.
+- EC2 Deployment: The project is deployed using AWS EC2.
 
 2. Running the Project
 Step 1: Run the Jupyter Notebook
-Open *final_project.ipynb* in Jupyter Notebook.
+Open `final_project.ipynb` in Jupyter Notebook.
 
 The notebook is organized into the following sections:
-Flask Web Application:
-
-This section starts the Flask server, allowing you to collect data from participants using a simple web form.
-The Flask app runs in a separate thread, so you can still work within the notebook while the app is live.
-Data Processing:
-
-After collecting data, this section allows you to export the data from MongoDB into a CSV file called participants_data.csv.
+### Flask Web Application:
+- This section starts the Flask server, allowing you to collect data from participants using a simple web form.
+- The Flask app runs in a separate thread, so you can still work within the notebook while the app is live.
+### Data Processing:
+- After collecting data, this section allows you to export the data from MongoDB into a CSV file called `participants_data.csv`.
 Data Visualization:
-
-This section loads the CSV data and generates visualizations such as:
-Highest income by age.
-Gender distribution across spending categories.
+- This section loads the CSV data and generates visualizations such as:
+- Highest income by age.
+- Gender distribution across spending categories.
 
 Step 2: Access the Flask Web Application
 Once you run the Flask section of the notebook, the web application will be accessible at:
