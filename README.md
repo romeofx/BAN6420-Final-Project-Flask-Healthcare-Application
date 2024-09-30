@@ -24,7 +24,7 @@ The Flask Healthcare Application is a survey tool designed to collect data on pa
 Install Dependencies
 - All dependencies required for this project are listed in the requirements.txt file. Run the following command to install them:
 
-*pip install -r requirements.txt*
+`pip install -r requirements.txt`
 
 Key dependencies include:
 Flask: Web application framework for data collection.
