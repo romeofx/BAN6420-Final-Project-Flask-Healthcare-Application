@@ -41,7 +41,7 @@ Open `final_project.ipynb` in Jupyter Notebook.
 - The Flask app runs in a separate thread, so you can still work within the notebook while the app is live.
 ### Data Processing:
 - After collecting data, this section allows you to export the data from MongoDB into a CSV file called `participants_data.csv`.
-Data Visualization:
+### Data Visualization:
 - This section loads the CSV data and generates visualizations such as:
 - Highest income by age.
 - Gender distribution across spending categories.
@@ -78,10 +78,10 @@ The project contains the following key files and directories:
 # Conclusion
 This project provides a streamlined solution for collecting, processing, and analyzing participant data. By integrating everything into a single Jupyter notebook, it simplifies the process and makes it easy to run, visualize, and share insights. The Flask application provides a user-friendly interface for data collection, while the notebook handles the data export and visual analysis. The deployment on AWS EC2 ensures that the application is scalable and accessible from anywhere.
 
-## License
+# License
 This project is open-source and free to use for educational purposes.
 
 
-## Author
+# Author
 Developed by Calistus Chukwuebuka Ndubuisi.
 
