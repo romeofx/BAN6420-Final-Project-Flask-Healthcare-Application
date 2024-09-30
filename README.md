@@ -7,17 +7,16 @@ The Flask Healthcare Application is a survey tool designed to collect data on pa
 - A Flask-based web application for data collection.
 - Data processing to export the collected data to CSV from MongoDB.
 - Data visualizations to analyze the collected data, including:(
-             - Ages with the highest income.
-             - Gender distribution across various spending categories.)
+             Ages with the highest income. Gender distribution across various spending categories.)
 
-Key Features:
-Flask Web Application: Collects participant data such as age, gender, income, and spending across categories like utilities, entertainment, school fees, shopping, and healthcare.
-MongoDB Integration: Stores the participant data.
-Data Processing: Exports the stored data to a CSV file.
-Data Visualization: Displays visual insights on income and spending using Matplotlib.
-Integrated in Jupyter Notebook: All functionalities are available in one .ipynb file.
-AWS EC2 Deployment: The Flask web app is deployed and accessible via AWS EC2.
-*****
+## Key Features:
+- Flask Web Application: Collects participant data such as age, gender, income, and spending across categories like utilities, entertainment, school fees, shopping, and healthcare.
+- MongoDB Integration: Stores the participant data.
+- Data Processing: Exports the stored data to a CSV file.
+- Data Visualization: Displays visual insights on income and spending using Matplotlib.
+- Integrated in Jupyter Notebook: All functionalities are available in one .ipynb file.
+- AWS EC2 Deployment: The Flask web app is deployed and accessible via AWS EC2.
+
 
 *****
 How to Use
