@@ -73,6 +73,7 @@ The project contains the following key files and directories:
 - `requirements.txt`: A list of required dependencies for the project.
 - `participants_data.csv`: The exported CSV file generated after data processing (this file will be created after running the notebook).
 - `charts`/ (directory): Contains PNG images of the charts generated from the visualizations. These images are automatically saved when running the Jupyter notebook. They can be used in reports or presentations.
+- `Healthcare_Analysis_Presentation.pptx`: The PowerPoint file generated from the data visualizations, containing charts for client presentations.
 
 # Conclusion
 This project provides a streamlined solution for collecting, processing, and analyzing participant data. By integrating everything into a single Jupyter notebook, it simplifies the process and makes it easy to run, visualize, and share insights. The Flask application provides a user-friendly interface for data collection, while the notebook handles the data export and visual analysis. The deployment on AWS EC2 ensures that the application is scalable and accessible from anywhere.
