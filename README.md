@@ -18,11 +18,11 @@ The Flask Healthcare Application is a survey tool designed to collect data on pa
 - AWS EC2 Deployment: The Flask web app is deployed and accessible via AWS EC2.
 
 
-*****
-How to Use
+
+## How to Use
 1. Setup and Installation
 Install Dependencies
-All dependencies required for this project are listed in the requirements.txt file. Run the following command to install them:
+- All dependencies required for this project are listed in the requirements.txt file. Run the following command to install them:
 
 *pip install -r requirements.txt*
 
